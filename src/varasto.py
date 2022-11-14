@@ -23,7 +23,6 @@ class Varasto:
         else:
             self.saldo = self.tilavuus
 
-    # rikotaan pylint kirjotetaan tähän liian pitkä rivi jee jee hauskaa hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
     def ota_varastosta(self, maara):
         if maara < 0:
             return 0.0
